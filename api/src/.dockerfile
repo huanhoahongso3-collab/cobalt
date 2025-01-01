@@ -10,16 +10,16 @@ ENV API_URL="https://cobalt-api-bwnb.onrender.com/"
 EXPOSE 9000
 
 # Set the working directory (if necessary)
-WORKDIR /path/to/your/working/directory
+# WORKDIR /path/to/your/working/directory
 
-# Copy the start script into the container
-COPY start.sh /usr/local/bin/start.sh
+# Install pnpm globally
+RUN npm install -g pnpm
 
 # Make the script executable
-RUN chmod +x /usr/local/bin/start.sh
+RUN chmod +x start.sh
 
 # Define the entry point to run the script
-ENTRYPOINT ["/usr/local/bin/start.sh"]
+ENTRYPOINT ["start.sh"]
 
 # Optionally define the default command to run the application
 # CMD ["your-original-command-here"] # Replace with the actual command if necessary
