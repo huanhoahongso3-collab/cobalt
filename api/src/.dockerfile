@@ -10,7 +10,6 @@ RUN pnpm install --production
 # Stage 2: Build the application (if needed, within the cobalt base image)
 FROM ghcr.io/imputnet/cobalt:latest AS build-app
 
-WORKDIR /app
 
 # Copy necessary files from the builder stage
 COPY --from=builder /app/node_modules ./node_modules
