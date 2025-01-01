@@ -9,7 +9,17 @@ ENV API_URL="https://cobalt-api-bwnb.onrender.com/"
 # Expose port 9000
 EXPOSE 9000
 
-# Optionally, you can add any additional configurations or instructions here
+# Set the working directory (if necessary)
+WORKDIR /path/to/your/working/directory
 
-# Define the command to run the application (if needed)
-# CMD ["your-command-here"] # Replace with the actual command if necessary
+# Copy the start script into the container
+COPY start.sh /usr/local/bin/start.sh
+
+# Make the script executable
+RUN chmod +x /usr/local/bin/start.sh
+
+# Define the entry point to run the script
+ENTRYPOINT ["/usr/local/bin/start.sh"]
+
+# Optionally define the default command to run the application
+# CMD ["your-original-command-here"] # Replace with the actual command if necessary
