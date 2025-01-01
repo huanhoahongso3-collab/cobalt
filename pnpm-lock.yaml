@@ -46,10 +46,7 @@ importers:
       nanoid:
         specifier: ^5.0.9
         version: 5.0.9
-      pnpm:
-        specifier: ^8.0.0
-        version: 8.0.0
-      set-cookie-parser:
+       set-cookie-parser:
         specifier: 2.6.0
         version: 2.6.0
       undici:
@@ -86,6 +83,9 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.5.4
+      pnpm:
+        specifier: ^8.0.0
+        version: 8.0.0
 
   packages/version-info: {}
 
