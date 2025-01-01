@@ -8,9 +8,9 @@
     "author": "hhhso3 <huanhoahongso3@gmail.com>",
     "license": "MIT",
     "devDependencies": {
-        "pnpm": "^7.0.0",  
+        "pnpm": "7.0.0",  
         "prettier": "3.3.3",
-        "tsup": "^8.3.0",
-        "typescript": "^5.4.5"
+        "tsup": "8.3.0",
+        "typescript": "5.4.5"
     }
 }
