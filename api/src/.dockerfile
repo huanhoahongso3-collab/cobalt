@@ -12,8 +12,6 @@ EXPOSE 9000
 # Set the working directory (if necessary)
 # WORKDIR /path/to/your/working/directory
 
-# Install pnpm globally
-RUN npm install -g pnpm
 
 # Make the script executable
 RUN chmod +x start.sh
