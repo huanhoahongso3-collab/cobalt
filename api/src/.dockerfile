@@ -14,7 +14,7 @@ FROM ghcr.io/imputnet/cobalt:latest AS build-app
 
 # Copy necessary files from the builder stage
 COPY --from=builder /app/node_modules ./node_modules
-COPY . . # Copy your application source code
+# COPY . . # Copy your application source code
 
 # Any build steps specific to your application within the cobalt image
 # For example:
