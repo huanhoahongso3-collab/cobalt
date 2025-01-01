@@ -6,9 +6,6 @@ ENV API_URL="https://cobalt-api-bwnb.onrender.com/"
 # Uncomment the next line if you want to use cookies
 # ENV COOKIE_PATH="/cookies.json"
 
-# Install Node.js and pnpm
-RUN apk add --no-cache nodejs npm && npm install -g pnpm
-
 # Copy the package.json and pnpm-lock.yaml files
 # COPY package.json pnpm-lock.yaml ./
 
