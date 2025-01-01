@@ -46,6 +46,9 @@ importers:
       nanoid:
         specifier: ^5.0.9
         version: 5.0.9
+      pnpm: 
+        specifier: ^8.0.0
+        version: 8.0.0
       set-cookie-parser:
         specifier: 2.6.0
         version: 2.6.0
