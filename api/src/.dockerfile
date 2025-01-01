@@ -10,7 +10,7 @@ ENV API_URL="https://cobalt-api-bwnb.onrender.com/"
 EXPOSE 9000
 
 # Set the working directory (if necessary)
-WORKDIR /path/to/your/working/directory
+# WORKDIR /path/to/your/working/directory
 
 # Optionally, you can add any additional configurations or instructions here
 
