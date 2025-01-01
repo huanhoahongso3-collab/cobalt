@@ -3997,6 +3997,8 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
+  pnpm@9.6.0: {}
+
   svelte-check@3.8.5(postcss@8.4.47)(svelte@4.2.19):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
