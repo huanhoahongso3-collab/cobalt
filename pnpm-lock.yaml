@@ -46,9 +46,6 @@ importers:
       nanoid:
         specifier: ^5.0.9
         version: 5.0.9
-      pnpm:  
-        specifier: ^7.0.0  
-        version: 7.0.0  
       set-cookie-parser:
         specifier: 2.6.0
         version: 2.6.0
@@ -3728,8 +3725,6 @@ snapshots:
 
   path-to-regexp@0.1.12: {}
 
-  pnpm@8.0.0: {}
-  
   periscopic@3.1.0:
     dependencies:
       '@types/estree': 1.0.5
