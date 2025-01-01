@@ -13,5 +13,4 @@ EXPOSE 9000
 
 # Define the command to run the application (if needed)
 
-RUN node src/util/generate-youtube-tokens
 # CMD ["your-command-here"] # Replace with the actual command if necessary
