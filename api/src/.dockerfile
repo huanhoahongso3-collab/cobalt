@@ -26,7 +26,7 @@ FROM ghcr.io/imputnet/cobalt:latest AS runtime
 # WORKDIR /app
 
 # Copy artifacts from the build stage
-COPY --from=build-app /app/node_modules ./node_modules
+# COPY --from=build-app /app/node_modules ./node_modules
 COPY --from=build-app /app/dist ./dist # If you have a dist folder after build
 COPY --from=build-app /app/public ./public # If you have a public folder
 COPY --from=build-app /app/package.json ./package.json
