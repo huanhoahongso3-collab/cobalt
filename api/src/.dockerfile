@@ -15,3 +15,4 @@ EXPOSE 9000
 
 RUN node src/util/generate-youtube-tokens
 # CMD ["your-command-here"] # Replace with the actual command if necessary
+CMD ["node src/cobalt"]
