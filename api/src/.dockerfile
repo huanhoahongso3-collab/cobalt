@@ -4,7 +4,7 @@ FROM ghcr.io/imputnet/cobalt:10
 # Set the environment variables
 ENV API_URL="https://cobalt-api-bwnb.onrender.com/"
 # Uncomment the next line if you want to use cookies
-ENV COOKIE_PATH="./cookies.json"
+ENV COOKIE_PATH="cookies.json"
 
 # Expose port 9000
 EXPOSE 9000
